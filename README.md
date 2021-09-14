@@ -159,6 +159,11 @@ CUDA_VISIBLE_DEVICES="0" python ./code_qa/run_siamese_test.py \
 
 Please to the first point in [Model Checkpoint section](#model-checkpoint)
 
+put them into `model/codesearchnet-checkpoint`
+![image](https://user-images.githubusercontent.com/34572118/133178834-ad22d825-499d-4707-8f6e-181566333b74.png)
+
+
+
 #### Step 2: training and evaluating
 
 To train a search model without CoCLR, you can use the following command:
